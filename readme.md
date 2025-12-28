@@ -62,7 +62,21 @@ sonar.javascript.lcov.reportPaths=coverage/lcov.info
 - We send this report to sonarqube
 - It will showup under the project.
 - We can set quality gate against it to fail or pass the pipeline.
-  
+
+```
+-----------|---------|----------|---------|---------|---------------------------------------------
+File       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                           
+-----------|---------|----------|---------|---------|---------------------------------------------
+All files  |   75.28 |    66.66 |   73.91 |      75 |                                             
+ server.js |   75.28 |    66.66 |   73.91 |      75 | 65-66,84-93,104-112,122-127,137-142,165-166 
+-----------|---------|----------|---------|---------|---------------------------------------------
+Test Suites: 1 passed, 1 total
+Tests:       9 passed, 9 total
+Snapshots:   0 total
+Time:        1.995 s, estimated 2 s
+Ran all test suites.
+```
+
 #### Vulnerabilities
 Security issues in the code that could be exploited by attackers (e.g., SQL injection, hard-coded secrets). These represent real security risks.
 
