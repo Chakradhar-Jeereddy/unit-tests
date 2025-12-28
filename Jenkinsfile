@@ -6,11 +6,11 @@ pipeline {
         }
     }
     environment {
-        COURSE = "Jenkins"
-        appVersion = ""
-        ACC_ID = "160885265516"
-        PROJECT = "roboshop"
-        COMPONENT = "catalogue"
+      course = "jenkins"
+      appVersion = ""
+      acc_id = "406682759639"
+      project = "chakra"
+      component = "catalogue"
     }
     options {
         timeout(time: 10, unit: 'MINUTES') 
